@@ -1,0 +1,20 @@
+{
+    "lithops": {
+        "backend": "azure_containers",
+        "storage": "azure_storage"
+    },
+    "azure_storage": {
+        "storage_account_name": "lithopsstorageaccount",
+        "storage_account_key": "7QEJG0CEbQ92Ojmogm/y9j9vnOq+LOlUsUj3U+99FfR/qu7HGLmt06eQ3IeHx6iKsv5ZK4OGodoG+AStHdjRLw=="
+    },
+    "azure_containers": {
+        "resource_group": "LithopsResourceGroup",
+        "region": "westeurope",
+        "environment": "lithops",
+        "docker_user": "pradeepkumarkaja",
+        "docker_password": "dckr_pat_tAaG2COpQSdd28nbS3Y-wPRrzEY",
+        "docker_server": "index.docker.io",
+        "runtime_memory": 512,
+        "runtime_timeout": 600
+    }
+}
